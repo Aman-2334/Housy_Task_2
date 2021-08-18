@@ -37,7 +37,9 @@ class DragObject {
           ),
           child: Center(
             child: Text(
-              'selected',
+               circle
+                  ? 'Dragable and Dropable circle'
+                  : 'Dragable and Dropable squircle',
               textAlign: TextAlign.center,
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
