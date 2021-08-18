@@ -36,12 +36,15 @@ class DragObject {
             color: circle ? Colors.white : Color(0xFFFFDEDE),
           ),
           child: Center(
-            child: Text(
-               circle
-                  ? 'Dragable and Dropable circle'
-                  : 'Dragable and Dropable squircle',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontWeight: FontWeight.bold),
+            child: Padding(
+              padding: const EdgeInsets.all(15),
+              child: Text(
+                circle
+                    ? 'Dragable and Dropable circle'
+                    : 'Dragable and Dropable squircle',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ),
         ),
