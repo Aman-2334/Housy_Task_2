@@ -1,6 +1,14 @@
 # housy_task2
 
-A new Flutter project.
+Challenge 2
+
+## Sample Video
+
+
+
+https://user-images.githubusercontent.com/54218000/129895784-6c097aa5-0431-4a48-9043-198874be1be6.mp4
+
+
 
 ## Getting Started
 
